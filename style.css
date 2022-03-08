@@ -1,4 +1,6 @@
 * {
+  margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
@@ -6,6 +8,8 @@
 /* HEADER SECTION */
 body {
   width: auto;
+  min-height: 100vh;
+  height: auto;
   margin: auto;
 }
 header {
@@ -14,7 +18,12 @@ header {
   padding-top: 10px;
 }
 .logo {
-  font-size: 22px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.3;
+  gap: 5px;
 }
 
 .navbar {
@@ -28,14 +37,15 @@ header {
 nav ul {
   list-style: none;
   display: flex;
-  gap: 10px;
 }
 
 nav ul li a {
   text-decoration: none;
-  font-size: 14px;
-  font-weight: 200;
+  font-size: 18px;
+  font-weight: 300;
   color: #f9faf8;
+  padding: 10px 20px;
+  border: 0.5px solid white;
 }
 
 /* HERO SECTION */
@@ -74,6 +84,7 @@ nav ul li a {
   padding: 5px 20px;
   border: 1px solid #3882f6;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .hero-img {
@@ -147,11 +158,9 @@ section {
 
 /* CTA SECTION */
 
-.section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.CTA-SECTION {
   margin: auto;
+  padding-top: 45px;
 }
 .CTA {
   width: 800px;
@@ -162,12 +171,14 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   border-radius: 10px;
   border: 1px solid #e5e7eb;
 }
 
 .cta-text {
   text-align: left;
+  line-height: 1.3;
   padding-left: 20px;
   color: #f9faf8;
 }
@@ -178,6 +189,7 @@ section {
   background-color: #3882f6;
   border: 2px solid white;
   color: #f9faf8;
+  cursor: pointer;
 }
 
 /* FOOTER */
@@ -185,15 +197,12 @@ footer {
   background-color: #1f2937;
   margin-top: auto;
   padding: 20px;
-  margin-bottom: 0;
   color: #e5e7eb;
   text-align: center;
 }
 
-/* .flex-wrapper {
+.flex-wrapper {
   display: flex;
   flex-direction: column;
-  align-content: center;
-  justify-content: flex-start;
   min-height: 100vh;
-} */
+}
