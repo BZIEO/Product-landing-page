@@ -131,7 +131,7 @@ section {
 
 .qbox {
   color: #1f2937;
-  width: 900px;
+  width: 700px;
   margin: auto;
   text-align: center;
   font-size: 36px;
@@ -145,4 +145,51 @@ section {
   color: #1f2937;
   font-weight: 500;
   font-size: 24px;
+}
+
+/* CTA SECTION */
+
+.CTA {
+  width: 800px;
+  margin: auto;
+  margin-bottom: 30px;
+  background-color: #3882f6;
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+}
+
+.cta-text {
+  text-align: left;
+  padding-left: 20px;
+  color: #f9faf8;
+}
+
+.CTA button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #3882f6;
+  border: 2px solid white;
+  color: #f9faf8;
+}
+
+/* FOOTER */
+footer {
+  background-color: #1f2937;
+  margin-top: auto;
+  padding: 20px;
+
+  color: #e5e7eb;
+  text-align: center;
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-start;
+  min-height: 100vh;
 }
