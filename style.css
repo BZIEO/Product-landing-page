@@ -152,7 +152,7 @@ section {
 .CTA {
   width: 800px;
   margin: auto;
-
+  margin-bottom: 30px;
   background-color: #3882f6;
   padding: 32px;
   display: flex;
